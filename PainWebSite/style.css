@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:wght@400;600;800&family=Qwitcher+Grypen:wght@700&display=swap');
+
+/* NAV BAR*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./imgs/background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.human-body {
+    width: 207px;
+    position: relative;
+    padding-top: 240px;
+    height: 260px;
+    display: block;
+    margin: 40px auto;
+
+}
+
+.human-body svg:hover {
+    cursor: pointer;
+}
+
+.human-body svg:hover path {
+    fill: #e40d0d;
+}
+
+.human-body svg {
+    position: absolute;
+    left: 50%;
+    fill: #0a0a0a;
+}
+
+.human-body svg.head {
+    margin-left: -28.5px;
+    top: -6px;
+}
+
+.human-body svg.ear {
+    margin-left: 15.5px;
+    top: 29px;
+
+}
+
+.human-body svg.earR {
+    margin-left: -40.5px;
+    top: 29px;
+
+}
+
+.human-body svg.shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+}
+
+.human-body svg.arm {
+    margin-left: -78px;
+    top: 112px;
+}
+
+.human-body svg.cheast {
+    margin-left: -43.5px;
+    top: 88px;
+}
+
+.human-body svg.stomach {
+    margin-left: -37.5px;
+    top: 130px;
+}
+
+.human-body svg.legs {
+    margin-left: -46.5px;
+    top: 205px;
+
+}
+
+.human-body svg.hands {
+    margin-left: -102.5px;
+    top: 224px;
+}
+
+#area {
+    display: block;
+    width: 25%;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: ' Poppins' sans-serif;
+    color: #757070;
+    margin-top: 15rem;
+
+    border-radius: 25px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+
+}
+
+#area #data {
+    color: black;
+
+}
+
+/* About-me Area */
+
+#about {
+    margin-top: 145px;
+}
+
+section .content p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+
+}
+
+#about .content p {
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 2.4rem;
+
+    justify-items: center;
+
+
+}
+
+
+.col-b img {
+
+    width: 570px;
+    height: 320px;
+    border-radius: 25px;
+}
+
+
+.col-a {
+    max-width: 600px;
+}
+
+.col-a h4 {
+
+    margin-bottom: 25px;
+    color: rgb(166, 166, 170);
+    width: 13rem;
+    padding: 20px;
+    border-radius: 29px;
+    font-family: 'Poppins';
+
+
+}
+
+
+@media (max-width: 1050px) {
+    .wrapper {
+        display: block;
+        font-size: 80%;
+    }
+
+    .col-b img {
+        max-width: 100%;
+        background-size: contain;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #area {
+        min-width: 80%;
+    }
+}
